@@ -1,70 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced HTML Example: Canvas, Audio, and Form</title>
-    <style>
-        canvas {
-            border: 1px solid #000;
-        }
-        form {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-        }
-    </style>
-</head>
+<html>
 <body>
 
-    <h1>Advanced HTML Features</h1>
-
-    <section>
-        <h2>Interactive Canvas Graphic</h2>
-        <canvas id="myCanvas" width="200" height="100"></canvas>
-        <script>
-            // JavaScript to draw on the canvas
-            const canvas = document.getElementById('myCanvas');
-            const ctx = canvas.getContext('2d');
-            ctx.fillStyle = '#FF0000';
-            ctx.fillRect(10, 10, 150, 75);
-            ctx.fillStyle = 'white';
-            ctx.font = '20px sans-serif';
-            ctx.fillText('Hello Canvas!', 20, 50);
-        </script>
-    </section>
-
-    <section>
-        <h2>Embedded Audio</h2>
-        <!-- The <audio> element allows embedding sound content -->
-        <audio controls>
-            <source src="path/to/your/audiofile.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <p>Replace "path/to/your/audiofile.mp3" with an actual audio file URL.</p>
-    </section>
-
-    <section>
-        <h2>Structured Data Form</h2>
-        <!-- Advanced form elements with semantic input types -->
-        <form action="/submit-page" method="POST">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            
-            <label for="volume">Volume (0 to 10):</label>
-            <input type="range" id="volume" name="volume" min="0" max="10"><br><br>
-
-            <label for="start">Start Date:</label>
-            <input type="date" id="start" name="trip-start" value="2025-01-01" min="2025-01-01" max="2026-12-31"><br><br>
-
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>For more advanced topics, consider exploring detailed guides on resources like [MDN Web Docs](https://developer.mozilla.org) or [W3Schools](https://www.w3schools.com).</p>
-    </footer>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
 
 </body>
 </html>
-
